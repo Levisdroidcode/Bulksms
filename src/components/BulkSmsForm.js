@@ -64,7 +64,7 @@ const BulkSmsForm = () => {
         <label>
           Phone Numbers (comma separated):
           <input
-            type="text"
+            type="number"
             value={phoneNumbers}
             onChange={(e) => setPhoneNumbers(e.target.value)}
           />
